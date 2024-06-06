@@ -15,55 +15,79 @@
 		<title>CV Generator</title>
 	</head>
 	<body>
-		<form>
-			<div class="mb-3">
-				<label for="exampleInputEmail1" class="form-label">Name</label>
-				<input type="text" class="form-control" id="name" name="name" />
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Name</label>
+							<input type="text" class="form-control" id="name" name="name" />
+						</div>
+						<div class="mb-3">
+							<label for="Email" class="form-label">Email</label>
+							<input type="text" class="form-control" id="email" name="name" />
+						</div>
+						<div class="mb-3">
+							<label for="Phone" class="form-label">Phone</label>
+							<input type="text" class="form-control" id="phone" name="phone" />
+						</div>
+						<div class="mb-3">
+							<label for="About you" class="form-label">Summary</label>
+							<textarea
+								type="text"
+								class="form-control"
+								id="summary"
+								name="summary">
+							</textarea>
+						</div>
+						<div class="mb-3">
+							<label for="degree" class="form-label">Degree</label>
+							<input
+								type="text"
+								class="form-control"
+								id="degree"
+								name="degree" />
+						</div>
+						<div class="mb-3">
+							<label for="school" class="form-label">School</label>
+							<input
+								type="text"
+								class="form-control"
+								id="school"
+								name="school" />
+						</div>
+						<div class="mb-3">
+							<label for="university" class="form-label">University</label>
+							<input
+								type="text"
+								class="form-control"
+								id="university"
+								name="university" />
+						</div>
+						<div class="mb-3">
+							<label for="previous_work" class="form-label"
+								>Previous work</label
+							>
+							<textarea
+								type="text"
+								class="form-control"
+								id="previous_work"
+								name="previous_work">
+							</textarea>
+						</div>
+						<div class="mb-3">
+							<label for="skills" class="form-label">Skills</label>
+							<textarea
+								type="text"
+								class="form-control"
+								id="skills"
+								name="skill">
+							</textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
 			</div>
-			<div class="mb-3">
-				<label for="Email" class="form-label">Email</label>
-				<input type="text" class="form-control" id="email" name="name" />
-			</div>
-			<div class="mb-3">
-				<label for="Phone" class="form-label">Phone</label>
-				<input type="text" class="form-control" id="phone" name="phone" />
-			</div>
-			<div class="mb-3">
-				<label for="About you" class="form-label">Summary</label>
-				<textarea type="text" class="form-control" id="summary" name="summary">
-				</textarea>
-			</div>
-			<div class="mb-3">
-				<label for="degree" class="form-label">Degree</label>
-				<input type="text" class="form-control" id="degree" name="degree" />
-			</div>
-			<div class="mb-3">
-				<label for="school" class="form-label">School</label>
-				<input type="text" class="form-control" id="school" name="school" />
-			</div>
-			<div class="mb-3">
-				<label for="university" class="form-label">University</label>
-				<input
-					type="text"
-					class="form-control"
-					id="university"
-					name="university" />
-			</div>
-			<div class="mb-3">
-				<label for="previous_work" class="form-label">Previous work</label>
-				<textarea
-					type="text"
-					class="form-control"
-					id="previous_work"
-					name="previous_work">
-				</textarea>
-			</div>
-			<div class="mb-3">
-				<label for="skills" class="form-label">Skills</label>
-				<textarea type="text" class="form-control" id="skills" name="skill">
-				</textarea>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+		</div>
 	</body>
 </html>
